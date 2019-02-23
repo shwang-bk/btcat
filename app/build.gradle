@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.1'
+
+    defaultConfig {
+        applicationId "studio.bluekitten.backtestingcat"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 21
+        versionName "0.7.2"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.android.support:design:27.0.1'
+    compile 'com.android.support:appcompat-v7:27.0.1'
+    compile 'com.android.support:cardview-v7:27.0.1'
+    compile 'com.android.support:gridlayout-v7:27.0.1'
+    compile 'com.google.android.gms:play-services-ads:11.6.0'
+    compile 'com.google.firebase:firebase-appindexing:11.6.0'
+
+    compile 'com.android.support:multidex:1.0.2'
+    compile group: 'com.yahoofinance-api', name: 'YahooFinanceAPI', version: '3.12.2'
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+}
+
+android.applicationVariants.all { variant ->
+    task "fix${variant.name.capitalize()}MainDexClassList" << {
+        logger.info "Fixing main dex keep file for $variant.name"
+        File keepFile = new File("$buildDir/intermediates/multi-dex/$variant.buildType.name/maindexlist.txt")
+        keepFile.withWriterAppend { w ->
+            // Get a reader for the input file
+            w.append('\n')
+            new File("${projectDir}/multidex.keep").withReader { r ->
+                // And write data from the input into the output
+                w << r << '\n'
+            }
+            logger.info "Updated main dex keep file for ${keepFile.getAbsolutePath()}\n$keepFile.text"
+        }
+    }
+}
+tasks.whenTaskAdded { task ->
+    android.applicationVariants.all { variant ->
+        if (task.name == "create${variant.name.capitalize()}MainDexClassList") {
+            task.finalizedBy "fix${variant.name.capitalize()}MainDexClassList"
+        }
+    }
+}

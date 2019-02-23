@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TargetActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/targetAdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="@string/banner_ad_unit_id" />
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/targetBar"/>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/targetBar"
+        android:layout_above="@id/targetAdView"
+        app:rowCount="9"
+        app:columnCount="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            app:layout_row="0"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            android:text="必填項目" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_row="1"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            android:background="@color/colorGray" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputStockIdLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_row="2"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            >
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textAutoComplete"
+                android:maxLines="1"
+                android:id="@+id/targetStockId"
+                android:hint="股票名稱或代碼" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            app:layout_row="3"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            android:text="回測區間" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:max="3"
+            app:layout_row="4"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            android:id="@+id/targetRangeSeek"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            app:layout_row="5"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            android:id="@+id/targetRange"
+            android:text="半年"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            app:layout_row="6"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            android:text="測試功能(選填項目)" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_row="7"
+            app:layout_column="0"
+            app:layout_columnSpan="4"
+            android:background="@color/colorGray" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_row="8"
+            app:layout_column="0"
+            app:layout_columnWeight="5">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:id="@+id/targetStopLoss"
+                android:hint="停損點"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingTop="25dp"
+            app:layout_row="8"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            android:text="%" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_row="8"
+            app:layout_column="2"
+            app:layout_columnWeight="5">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:id="@+id/targetStopProfit"
+                android:hint="停利點"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingTop="25dp"
+            app:layout_row="8"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            android:text="%" />
+
+    </android.support.v7.widget.GridLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,2068 @@
+<resources>
+    <string name="app_name">回測貓</string>
+    <string name="search_title">搜尋股票</string>
+    <string name="share_text">
+        回測貓-股市回測小幫手\n
+        https://play.google.com/store/apps/details?id=studio.bluekitten.backtestingcat
+    </string>
+    <string name="banner_ad_unit_id">ca-app-pub-4220002976721922/5287695290</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-4220002976721922/6764428495</string>
+
+    <string name="vpon_banner_ad_unit_id">8a808182579389d40157a4ba8a731a60</string>
+    <string name="vpon_interstitial_ad_unit_id">8a808182579389d40157a4bb252a1a61</string>
+
+    <string-array name="left_drawer">
+        <item>BUG 回報</item>
+        <item>分享給好友</item>
+        <item>幫回測貓評分</item>
+        <item>服務條款</item>
+        <item>隱私權政策</item>
+        <item>免責聲明</item>
+    </string-array>
+
+    <string-array name="detail_drawer">
+        <item>MA5</item>
+        <item>MA20</item>
+        <item>MA60</item>
+        <item>曾氏通道</item>
+        <item>布林通道</item>
+    </string-array>
+
+    <string-array name="k_bars">
+        <item>紅K</item>
+        <item>黑K</item>
+    </string-array>
+
+    <string-array name="macd_bars">
+        <item>向上</item>
+        <item>向下</item>
+    </string-array>
+
+    <string-array name="extremum">
+        <item>新高</item>
+        <item>新低</item>
+    </string-array>
+
+    <string-array name="changes">
+        <item>漲幅</item>
+        <item>跌幅</item>
+    </string-array>
+
+    <string-array name="shadows">
+        <item>上影線</item>
+        <item>下影線</item>
+        <item>上下影線</item>
+        <item>無影線</item>
+        <item>十字線</item>
+        <item>T字線</item>
+        <item>倒T字線</item>
+        <item>一字線</item>
+    </string-array>
+
+    <string-array name="measurements">
+        <item>&#060;</item>
+        <item>&#062;</item>
+    </string-array>
+
+    <string-array name="strategies">
+        <item>K線 連續K棒</item>
+        <item>K線 影線</item>
+        <item>K線 漲跌幅</item>
+        <item>K線 跳空</item>
+        <item>K線 突破</item>
+        <item>成交量 成交均量</item>
+        <item>成交量 連續成交量</item>
+        <item>成交量 當日爆量</item>
+        <item>均線 黃金交叉</item>
+        <item>均線 死亡交叉</item>
+        <item>KD K值</item>
+        <item>KD D值</item>
+        <item>KD 黃金交叉</item>
+        <item>KD 死亡交叉</item>
+        <item>MACD 柱狀圖</item>
+        <item>MACD 黃金交叉</item>
+        <item>MACD 死亡交叉</item>
+        <item>RSI RSI</item>
+        <item>RSI 黃金交叉</item>
+        <item>RSI 死亡交叉</item>
+        <item>乖離率 乖離率</item>
+        <item>布林 突破頂端</item>
+        <item>布林 突破底端</item>
+    </string-array>
+
+    <string-array name="time_offsets">
+        <item>近半年</item>
+        <item>近一年</item>
+        <item>近三年</item>
+    </string-array>
+
+    <string-array name="report_contents">
+        <item>線圖顯示（此欄空白）</item>
+
+        <item>毛利</item>
+        <item>獲利因子</item>
+        <item>毛損</item>
+
+        <item>平均獲利</item>
+        <item>賺賠比</item>
+        <item>平均虧損</item>
+
+        <item>獲利次數</item>
+        <item>總交易次數</item>
+        <item>虧損次數</item>
+
+        <item>最大連續獲利次數</item>
+        <item>最大連續虧損次數</item>
+
+        <item>最大策略虧損</item>
+        <item>報酬率</item>
+
+        <item>備註</item>
+    </string-array>
+
+    <string-array name="tech_report_contents">
+        <item>進出場資訊</item>
+        <item>開盤價</item>
+        <item>收盤價</item>
+        <item>最高價</item>
+        <item>最低價</item>
+    </string-array>
+
+    <string-array name="stock_metas">
+        <item>^TWII 台股加權指數</item>
+        <item>0050.TW 元大台灣50</item>
+        <item>0051.TW 元大中型100</item>
+        <item>0052.TW 富邦科技</item>
+        <item>0053.TW 元大電子</item>
+        <item>0054.TW 元大台商50</item>
+        <item>0055.TW 元大MSCI金融</item>
+        <item>0056.TW 元大高股息</item>
+        <item>0057.TW 富邦摩台</item>
+        <item>0058.TW 富邦發達</item>
+        <item>0059.TW 富邦金融</item>
+        <item>0061.TW 元大寶滬深</item>
+        <item>006203.TW 元大MSCI台灣</item>
+        <item>006204.TW 永豐臺灣加權</item>
+        <item>006205.TW 富邦上証</item>
+        <item>006206.TW 元大上證50</item>
+        <item>006207.TW FH滬深</item>
+        <item>006208.TW 富邦台50</item>
+        <item>00625K.TW 富邦上証+R</item>
+        <item>00631L.TW 元大台灣50正2</item>
+        <item>00632R.TW 元大台灣50反1</item>
+        <item>00633L.TW 富邦上証正2</item>
+        <item>00634R.TW 富邦上証反1</item>
+        <item>00635U.TW 元大SP黃金</item>
+        <item>00636.TW 國泰中國A50</item>
+        <item>00636K.TW 國泰中國A50+U</item>
+        <item>00637L.TW 元大滬深300正2</item>
+        <item>00638R.TW 元大滬深300反1</item>
+        <item>00639.TW 富邦深100</item>
+        <item>00640L.TW 富邦日本正2</item>
+        <item>00641R.TW 富邦日本反1</item>
+        <item>00642U.TW 元大SP石油</item>
+        <item>00643.TW 群益深証中小</item>
+        <item>00643K.TW 群益深証中小+R</item>
+        <item>00645.TW 富邦日本</item>
+        <item>00646.TW 元大SP500</item>
+        <item>00647L.TW 元大SP500正2</item>
+        <item>00648R.TW 元大SP500反1</item>
+        <item>00649.TW FH香港</item>
+        <item>00650L.TW FH香港正2</item>
+        <item>00651R.TW FH香港反1</item>
+        <item>00652.TW 富邦印度</item>
+        <item>00653L.TW 富邦印度正2</item>
+        <item>00654R.TW 富邦印度反1</item>
+        <item>00655L.TW 國泰中國A50正2</item>
+        <item>00656R.TW 國泰中國A50反1</item>
+        <item>00657.TW 國泰日經225</item>
+        <item>00657K.TW 國泰日經225+U</item>
+        <item>00658L.TW 國泰日本正2</item>
+        <item>00659R.TW 國泰日本反1</item>
+        <item>00660.TW 元大歐洲50</item>
+        <item>00661.TW 元大日經225</item>
+        <item>00662.TW 富邦NASDAQ</item>
+        <item>00663L.TW 國泰臺灣加權正2</item>
+        <item>00664R.TW 國泰臺灣加權反1</item>
+        <item>00665L.TW 富邦H股正2</item>
+        <item>00666R.TW 富邦H股反1</item>
+        <item>00667.TW 元大韓國</item>
+        <item>00668.TW 國泰美國道瓊</item>
+        <item>00668K.TW 國泰美國道瓊+U</item>
+        <item>00669R.TW 國泰美國道瓊反1</item>
+        <item>00670L.TW 富邦NASDAQ正2</item>
+        <item>00671R.TW 富邦NASDAQ反1</item>
+        <item>00672L.TW 元大SP原油正2</item>
+        <item>00673R.TW 元大SP原油反1</item>
+        <item>00674R.TW 元大SP黃金反1</item>
+        <item>00675L.TW 富邦臺灣加權正2</item>
+        <item>00676R.TW 富邦臺灣加權反1</item>
+        <item>00677U.TW 富邦VIX</item>
+        <item>00678.TW 群益NBI生技</item>
+        <item>00680L.TW 元大美債20正2</item>
+        <item>00681R.TW 元大美債20反1</item>
+        <item>00682U.TW 元大美元指數</item>
+        <item>00683L.TW 元大美元指數正2</item>
+        <item>00684R.TW 元大美元指數反1</item>
+        <item>00685L.TW 群益臺灣加權正2</item>
+        <item>00686R.TW 群益臺灣加權反1</item>
+        <item>00688L.TW 國泰20年美債正2</item>
+        <item>00689R.TW 國泰20年美債反1</item>
+        <item>00690.TW 兆豐藍籌30</item>
+        <item>00691R.TW 兆豐藍籌30反1</item>
+        <item>00692.TW 富邦公司治理</item>
+        <item>00693U.TW 華頓SP黃豆</item>
+        <item>00698L.TW 元大美債7-10正2</item>
+        <item>00699R.TW 元大美債7-10反1</item>
+        <item>00700.TW 富邦H股</item>
+        <item>00701.TW 國泰臺灣低波動30</item>
+        <item>00702.TW 國泰標普低波高息</item>
+        <item>00703.TW 台新MSCI中國</item>
+        <item>00704L.TW 台新MSCI台灣正2</item>
+        <item>00705R.TW 台新MSCI台灣反1</item>
+        <item>00706L.TW 元大SP日圓正2</item>
+        <item>00707R.TW 元大SP日圓反1</item>
+        <item>00708L.TW 元大SP黃金正2</item>
+        <item>00709.TW 富邦歐洲</item>
+        <item>00710B.TW FH彭博高收益債</item>
+        <item>00711B.TW FH彭博新興債</item>
+        <item>00712.TW FH富時不動產</item>
+        <item>00713.TW 元大台灣高息低波</item>
+        <item>00714.TW 群益道瓊美國地產</item>
+        <item>008201.TW BP上證50</item>
+        <item>1101.TW 台泥</item>
+        <item>1102.TW 亞泥</item>
+        <item>1103.TW 嘉泥</item>
+        <item>1104.TW 環泥</item>
+        <item>1108.TW 幸福</item>
+        <item>1109.TW 信大</item>
+        <item>1110.TW 東泥</item>
+        <item>1201.TW 味全</item>
+        <item>1203.TW 味王</item>
+        <item>1210.TW 大成</item>
+        <item>1213.TW 大飲</item>
+        <item>1215.TW 卜蜂</item>
+        <item>1216.TW 統一</item>
+        <item>1217.TW 愛之味</item>
+        <item>1218.TW 泰山</item>
+        <item>1219.TW 福壽</item>
+        <item>1220.TW 台榮</item>
+        <item>1225.TW 福懋油</item>
+        <item>1227.TW 佳格</item>
+        <item>1229.TW 聯華</item>
+        <item>1231.TW 聯華食</item>
+        <item>1232.TW 大統益</item>
+        <item>1233.TW 天仁</item>
+        <item>1234.TW 黑松</item>
+        <item>1235.TW 興泰</item>
+        <item>1236.TW 宏亞</item>
+        <item>1256.TW 鮮活果汁-KY</item>
+        <item>1262.TW 綠悅-KY</item>
+        <item>1301.TW 台塑</item>
+        <item>1303.TW 南亞</item>
+        <item>1304.TW 台聚</item>
+        <item>1305.TW 華夏</item>
+        <item>1307.TW 三芳</item>
+        <item>1308.TW 亞聚</item>
+        <item>1309.TW 台達化</item>
+        <item>1310.TW 台苯</item>
+        <item>1312.TW 國喬</item>
+        <item>1312A.TW 國喬特</item>
+        <item>1313.TW 聯成</item>
+        <item>1314.TW 中石化</item>
+        <item>1315.TW 達新</item>
+        <item>1316.TW 上曜</item>
+        <item>1319.TW 東陽</item>
+        <item>1321.TW 大洋</item>
+        <item>1323.TW 永裕</item>
+        <item>1324.TW 地球</item>
+        <item>1325.TW 恆大</item>
+        <item>1326.TW 台化</item>
+        <item>1337.TW 再生-KY</item>
+        <item>1338.TW 廣華-KY</item>
+        <item>1339.TW 昭輝</item>
+        <item>1340.TW 勝悅-KY</item>
+        <item>1402.TW 遠東新</item>
+        <item>1409.TW 新纖</item>
+        <item>1410.TW 南染</item>
+        <item>1413.TW 宏洲</item>
+        <item>1414.TW 東和</item>
+        <item>1416.TW 廣豐</item>
+        <item>1417.TW 嘉裕</item>
+        <item>1418.TW 東華</item>
+        <item>1419.TW 新紡</item>
+        <item>1423.TW 利華</item>
+        <item>1432.TW 大魯閣</item>
+        <item>1434.TW 福懋</item>
+        <item>1435.TW 中福</item>
+        <item>1436.TW 華友聯</item>
+        <item>1437.TW 勤益控</item>
+        <item>1438.TW 裕豐</item>
+        <item>1439.TW 中和</item>
+        <item>1440.TW 南紡</item>
+        <item>1441.TW 大東</item>
+        <item>1442.TW 名軒</item>
+        <item>1443.TW 立益</item>
+        <item>1444.TW 力麗</item>
+        <item>1445.TW 大宇</item>
+        <item>1446.TW 宏和</item>
+        <item>1447.TW 力鵬</item>
+        <item>1449.TW 佳和</item>
+        <item>1451.TW 年興</item>
+        <item>1452.TW 宏益</item>
+        <item>1453.TW 大將</item>
+        <item>1454.TW 台富</item>
+        <item>1455.TW 集盛</item>
+        <item>1456.TW 怡華</item>
+        <item>1457.TW 宜進</item>
+        <item>1459.TW 聯發</item>
+        <item>1460.TW 宏遠</item>
+        <item>1463.TW 強盛</item>
+        <item>1464.TW 得力</item>
+        <item>1465.TW 偉全</item>
+        <item>1466.TW 聚隆</item>
+        <item>1467.TW 南緯</item>
+        <item>1468.TW 昶和</item>
+        <item>1469.TW 理隆</item>
+        <item>1470.TW 大統染</item>
+        <item>1471.TW 首利</item>
+        <item>1472.TW 三洋紡</item>
+        <item>1473.TW 台南</item>
+        <item>1474.TW 弘裕</item>
+        <item>1475.TW 本盟</item>
+        <item>1476.TW 儒鴻</item>
+        <item>1477.TW 聚陽</item>
+        <item>1503.TW 士電</item>
+        <item>1504.TW 東元</item>
+        <item>1506.TW 正道</item>
+        <item>1507.TW 永大</item>
+        <item>1512.TW 瑞利</item>
+        <item>1513.TW 中興電</item>
+        <item>1514.TW 亞力</item>
+        <item>1515.TW 力山</item>
+        <item>1516.TW 川飛</item>
+        <item>1517.TW 利奇</item>
+        <item>1519.TW 華城</item>
+        <item>1521.TW 大億</item>
+        <item>1522.TW 堤維西</item>
+        <item>1524.TW 耿鼎</item>
+        <item>1525.TW 江申</item>
+        <item>1526.TW 日馳</item>
+        <item>1527.TW 鑽全</item>
+        <item>1528.TW 恩德</item>
+        <item>1529.TW 樂士</item>
+        <item>1530.TW 亞崴</item>
+        <item>1531.TW 高林股</item>
+        <item>1532.TW 勤美</item>
+        <item>1533.TW 車王電</item>
+        <item>1535.TW 中宇</item>
+        <item>1536.TW 和大</item>
+        <item>1537.TW 廣隆</item>
+        <item>1538.TW 正峰新</item>
+        <item>1539.TW 巨庭</item>
+        <item>1540.TW 喬福</item>
+        <item>1541.TW 錩泰</item>
+        <item>1558.TW 伸興</item>
+        <item>1560.TW 中砂</item>
+        <item>1568.TW 倉佑</item>
+        <item>1582.TW 信錦</item>
+        <item>1583.TW 程泰</item>
+        <item>1589.TW 永冠-KY</item>
+        <item>1590.TW 亞德客-KY</item>
+        <item>1592.TW 英瑞-KY</item>
+        <item>1598.TW 岱宇</item>
+        <item>1603.TW 華電</item>
+        <item>1604.TW 聲寶</item>
+        <item>1605.TW 華新</item>
+        <item>1608.TW 華榮</item>
+        <item>1609.TW 大亞</item>
+        <item>1611.TW 中電</item>
+        <item>1612.TW 宏泰</item>
+        <item>1614.TW 三洋電</item>
+        <item>1615.TW 大山</item>
+        <item>1616.TW 億泰</item>
+        <item>1617.TW 榮星</item>
+        <item>1618.TW 合機</item>
+        <item>1626.TW 艾美特-KY</item>
+        <item>1701.TW 中化</item>
+        <item>1702.TW 南僑</item>
+        <item>1704.TW 榮化</item>
+        <item>1707.TW 葡萄王</item>
+        <item>1708.TW 東鹼</item>
+        <item>1709.TW 和益</item>
+        <item>1710.TW 東聯</item>
+        <item>1711.TW 永光</item>
+        <item>1712.TW 興農</item>
+        <item>1713.TW 國化</item>
+        <item>1714.TW 和桐</item>
+        <item>1717.TW 長興</item>
+        <item>1718.TW 中纖</item>
+        <item>1720.TW 生達</item>
+        <item>1721.TW 三晃</item>
+        <item>1722.TW 台肥</item>
+        <item>1723.TW 中碳</item>
+        <item>1724.TW 台硝</item>
+        <item>1725.TW 元禎</item>
+        <item>1726.TW 永記</item>
+        <item>1727.TW 中華化</item>
+        <item>1730.TW 花仙子</item>
+        <item>1731.TW 美吾華</item>
+        <item>1732.TW 毛寶</item>
+        <item>1733.TW 五鼎</item>
+        <item>1734.TW 杏輝</item>
+        <item>1735.TW 日勝化</item>
+        <item>1736.TW 喬山</item>
+        <item>1737.TW 臺鹽</item>
+        <item>1762.TW 中化生</item>
+        <item>1773.TW 勝一</item>
+        <item>1776.TW 展宇</item>
+        <item>1783.TW 和康生</item>
+        <item>1786.TW 科妍</item>
+        <item>1789.TW 神隆</item>
+        <item>1802.TW 台玻</item>
+        <item>1805.TW 寶徠</item>
+        <item>1806.TW 冠軍</item>
+        <item>1808.TW 潤隆</item>
+        <item>1809.TW 中釉</item>
+        <item>1810.TW 和成</item>
+        <item>1817.TW 凱撒衛</item>
+        <item>1902.TW 台紙</item>
+        <item>1903.TW 士紙</item>
+        <item>1904.TW 正隆</item>
+        <item>1905.TW 華紙</item>
+        <item>1906.TW 寶隆</item>
+        <item>1907.TW 永豐餘</item>
+        <item>1909.TW 榮成</item>
+        <item>2002.TW 中鋼</item>
+        <item>2002A.TW 中鋼特</item>
+        <item>2006.TW 東和鋼鐵</item>
+        <item>2007.TW 燁興</item>
+        <item>2008.TW 高興昌</item>
+        <item>2009.TW 第一銅</item>
+        <item>2010.TW 春源</item>
+        <item>2012.TW 春雨</item>
+        <item>2013.TW 中鋼構</item>
+        <item>2014.TW 中鴻</item>
+        <item>2015.TW 豐興</item>
+        <item>2017.TW 官田鋼</item>
+        <item>2020.TW 美亞</item>
+        <item>2022.TW 聚亨</item>
+        <item>2023.TW 燁輝</item>
+        <item>2024.TW 志聯</item>
+        <item>2025.TW 千興</item>
+        <item>2027.TW 大成鋼</item>
+        <item>2028.TW 威致</item>
+        <item>2029.TW 盛餘</item>
+        <item>2030.TW 彰源</item>
+        <item>2031.TW 新光鋼</item>
+        <item>2032.TW 新鋼</item>
+        <item>2033.TW 佳大</item>
+        <item>2034.TW 允強</item>
+        <item>2038.TW 海光</item>
+        <item>2049.TW 上銀</item>
+        <item>2059.TW 川湖</item>
+        <item>2062.TW 橋椿</item>
+        <item>2069.TW 運錩</item>
+        <item>2101.TW 南港</item>
+        <item>2102.TW 泰豐</item>
+        <item>2103.TW 台橡</item>
+        <item>2104.TW 中橡</item>
+        <item>2105.TW 正新</item>
+        <item>2106.TW 建大</item>
+        <item>2107.TW 厚生</item>
+        <item>2108.TW 南帝</item>
+        <item>2109.TW 華豐</item>
+        <item>2114.TW 鑫永銓</item>
+        <item>2115.TW 六暉-KY</item>
+        <item>2201.TW 裕隆</item>
+        <item>2204.TW 中華</item>
+        <item>2206.TW 三陽工業</item>
+        <item>2207.TW 和泰車</item>
+        <item>2208.TW 台船</item>
+        <item>2227.TW 裕日車</item>
+        <item>2228.TW 劍麟</item>
+        <item>2231.TW 為升</item>
+        <item>2236.TW 百達-KY</item>
+        <item>2239.TW 英利-KY</item>
+        <item>2243.TW 宏旭-KY</item>
+        <item>2301.TW 光寶科</item>
+        <item>2302.TW 麗正</item>
+        <item>2303.TW 聯電</item>
+        <item>2305.TW 全友</item>
+        <item>2308.TW 台達電</item>
+        <item>2311.TW 日月光</item>
+        <item>2312.TW 金寶</item>
+        <item>2313.TW 華通</item>
+        <item>2314.TW 台揚</item>
+        <item>2316.TW 楠梓電</item>
+        <item>2317.TW 鴻海</item>
+        <item>2321.TW 東訊</item>
+        <item>2323.TW 中環</item>
+        <item>2324.TW 仁寶</item>
+        <item>2325.TW 矽品</item>
+        <item>2327.TW 國巨</item>
+        <item>2328.TW 廣宇</item>
+        <item>2329.TW 華泰</item>
+        <item>2330.TW 台積電</item>
+        <item>2331.TW 精英</item>
+        <item>2332.TW 友訊</item>
+        <item>2337.TW 旺宏</item>
+        <item>2338.TW 光罩</item>
+        <item>2340.TW 光磊</item>
+        <item>2342.TW 茂矽</item>
+        <item>2344.TW 華邦電</item>
+        <item>2345.TW 智邦</item>
+        <item>2347.TW 聯強</item>
+        <item>2348.TW 海悅</item>
+        <item>2349.TW 錸德</item>
+        <item>2351.TW 順德</item>
+        <item>2352.TW 佳世達</item>
+        <item>2353.TW 宏碁</item>
+        <item>2354.TW 鴻準</item>
+        <item>2355.TW 敬鵬</item>
+        <item>2356.TW 英業達</item>
+        <item>2357.TW 華碩</item>
+        <item>2358.TW 廷鑫</item>
+        <item>2359.TW 所羅門</item>
+        <item>2360.TW 致茂</item>
+        <item>2362.TW 藍天</item>
+        <item>2363.TW 矽統</item>
+        <item>2364.TW 倫飛</item>
+        <item>2365.TW 昆盈</item>
+        <item>2367.TW 燿華</item>
+        <item>2368.TW 金像電</item>
+        <item>2369.TW 菱生</item>
+        <item>2371.TW 大同</item>
+        <item>2373.TW 震旦行</item>
+        <item>2374.TW 佳能</item>
+        <item>2375.TW 智寶</item>
+        <item>2376.TW 技嘉</item>
+        <item>2377.TW 微星</item>
+        <item>2379.TW 瑞昱</item>
+        <item>2380.TW 虹光</item>
+        <item>2382.TW 廣達</item>
+        <item>2383.TW 台光電</item>
+        <item>2385.TW 群光</item>
+        <item>2387.TW 精元</item>
+        <item>2388.TW 威盛</item>
+        <item>2390.TW 云辰</item>
+        <item>2392.TW 正崴</item>
+        <item>2393.TW 億光</item>
+        <item>2395.TW 研華</item>
+        <item>2397.TW 友通</item>
+        <item>2399.TW 映泰</item>
+        <item>2401.TW 凌陽</item>
+        <item>2402.TW 毅嘉</item>
+        <item>2404.TW 漢唐</item>
+        <item>2405.TW 浩鑫</item>
+        <item>2406.TW 國碩</item>
+        <item>2408.TW 南亞科</item>
+        <item>2409.TW 友達</item>
+        <item>2412.TW 中華電</item>
+        <item>2413.TW 環科</item>
+        <item>2414.TW 精技</item>
+        <item>2415.TW 錩新</item>
+        <item>2417.TW 圓剛</item>
+        <item>2419.TW 仲琦</item>
+        <item>2420.TW 新巨</item>
+        <item>2421.TW 建準</item>
+        <item>2423.TW 固緯</item>
+        <item>2424.TW 隴華</item>
+        <item>2425.TW 承啟</item>
+        <item>2426.TW 鼎元</item>
+        <item>2427.TW 三商電</item>
+        <item>2428.TW 興勤</item>
+        <item>2429.TW 銘旺科</item>
+        <item>2430.TW 燦坤</item>
+        <item>2431.TW 聯昌</item>
+        <item>2433.TW 互盛電</item>
+        <item>2434.TW 統懋</item>
+        <item>2436.TW 偉詮電</item>
+        <item>2438.TW 翔耀</item>
+        <item>2439.TW 美律</item>
+        <item>2440.TW 太空梭</item>
+        <item>2441.TW 超豐</item>
+        <item>2442.TW 新美齊</item>
+        <item>2443.TW 新利虹</item>
+        <item>2444.TW 友旺</item>
+        <item>2448.TW 晶電</item>
+        <item>2449.TW 京元電子</item>
+        <item>2450.TW 神腦</item>
+        <item>2451.TW 創見</item>
+        <item>2453.TW 凌群</item>
+        <item>2454.TW 聯發科</item>
+        <item>2455.TW 全新</item>
+        <item>2456.TW 奇力新</item>
+        <item>2457.TW 飛宏</item>
+        <item>2458.TW 義隆</item>
+        <item>2459.TW 敦吉</item>
+        <item>2460.TW 建通</item>
+        <item>2461.TW 光群雷</item>
+        <item>2462.TW 良得電</item>
+        <item>2464.TW 盟立</item>
+        <item>2465.TW 麗臺</item>
+        <item>2466.TW 冠西電</item>
+        <item>2467.TW 志聖</item>
+        <item>2468.TW 華經</item>
+        <item>2471.TW 資通</item>
+        <item>2472.TW 立隆電</item>
+        <item>2474.TW 可成</item>
+        <item>2475.TW 華映</item>
+        <item>2476.TW 鉅祥</item>
+        <item>2477.TW 美隆電</item>
+        <item>2478.TW 大毅</item>
+        <item>2480.TW 敦陽科</item>
+        <item>2481.TW 強茂</item>
+        <item>2482.TW 連宇</item>
+        <item>2483.TW 百容</item>
+        <item>2484.TW 希華</item>
+        <item>2485.TW 兆赫</item>
+        <item>2486.TW 一詮</item>
+        <item>2488.TW 漢平</item>
+        <item>2489.TW 瑞軒</item>
+        <item>2491.TW 吉祥全</item>
+        <item>2492.TW 華新科</item>
+        <item>2493.TW 揚博</item>
+        <item>2495.TW 普安</item>
+        <item>2496.TW 卓越</item>
+        <item>2497.TW 怡利電</item>
+        <item>2498.TW 宏達電</item>
+        <item>2499.TW 東貝</item>
+        <item>2501.TW 國建</item>
+        <item>2504.TW 國產</item>
+        <item>2505.TW 國揚</item>
+        <item>2506.TW 太設</item>
+        <item>2509.TW 全坤建</item>
+        <item>2511.TW 太子</item>
+        <item>2514.TW 龍邦</item>
+        <item>2515.TW 中工</item>
+        <item>2516.TW 新建</item>
+        <item>2520.TW 冠德</item>
+        <item>2524.TW 京城</item>
+        <item>2527.TW 宏璟</item>
+        <item>2528.TW 皇普</item>
+        <item>2530.TW 華建</item>
+        <item>2534.TW 宏盛</item>
+        <item>2535.TW 達欣工</item>
+        <item>2536.TW 宏普</item>
+        <item>2537.TW 聯上發</item>
+        <item>2538.TW 基泰</item>
+        <item>2539.TW 櫻花建</item>
+        <item>2540.TW 愛山林</item>
+        <item>2542.TW 興富發</item>
+        <item>2543.TW 皇昌</item>
+        <item>2545.TW 皇翔</item>
+        <item>2546.TW 根基</item>
+        <item>2547.TW 日勝生</item>
+        <item>2548.TW 華固</item>
+        <item>2597.TW 潤弘</item>
+        <item>2601.TW 益航</item>
+        <item>2603.TW 長榮</item>
+        <item>2605.TW 新興</item>
+        <item>2606.TW 裕民</item>
+        <item>2607.TW 榮運</item>
+        <item>2608.TW 大榮</item>
+        <item>2609.TW 陽明</item>
+        <item>2610.TW 華航</item>
+        <item>2611.TW 志信</item>
+        <item>2612.TW 中航</item>
+        <item>2613.TW 中櫃</item>
+        <item>2614.TW 東森</item>
+        <item>2615.TW 萬海</item>
+        <item>2616.TW 山隆</item>
+        <item>2617.TW 台航</item>
+        <item>2618.TW 長榮航</item>
+        <item>2633.TW 台灣高鐵</item>
+        <item>2634.TW 漢翔</item>
+        <item>2636.TW 台驊投控</item>
+        <item>2637.TW 慧洋-KY</item>
+        <item>2642.TW 宅配通</item>
+        <item>2701.TW 萬企</item>
+        <item>2702.TW 華園</item>
+        <item>2704.TW 國賓</item>
+        <item>2705.TW 六福</item>
+        <item>2706.TW 第一店</item>
+        <item>2707.TW 晶華</item>
+        <item>2712.TW 遠雄來</item>
+        <item>2722.TW 夏都</item>
+        <item>2723.TW 美食-KY</item>
+        <item>2727.TW 王品</item>
+        <item>2731.TW 雄獅</item>
+        <item>2739.TW 寒舍</item>
+        <item>2748.TW 雲品</item>
+        <item>2801.TW 彰銀</item>
+        <item>2809.TW 京城銀</item>
+        <item>2812.TW 台中銀</item>
+        <item>2816.TW 旺旺保</item>
+        <item>2820.TW 華票</item>
+        <item>2823.TW 中壽</item>
+        <item>2832.TW 台產</item>
+        <item>2834.TW 臺企銀</item>
+        <item>2836.TW 高雄銀</item>
+        <item>2838.TW 聯邦銀</item>
+        <item>2841.TW 台開</item>
+        <item>2845.TW 遠東銀</item>
+        <item>2849.TW 安泰銀</item>
+        <item>2850.TW 新產</item>
+        <item>2851.TW 中再保</item>
+        <item>2852.TW 第一保</item>
+        <item>2855.TW 統一證</item>
+        <item>2856.TW 元富證</item>
+        <item>2867.TW 三商壽</item>
+        <item>2880.TW 華南金</item>
+        <item>2881.TW 富邦金</item>
+        <item>2881A.TW 富邦特</item>
+        <item>2882.TW 國泰金</item>
+        <item>2882A.TW 國泰特</item>
+        <item>2883.TW 開發金</item>
+        <item>2884.TW 玉山金</item>
+        <item>2885.TW 元大金</item>
+        <item>2886.TW 兆豐金</item>
+        <item>2887.TW 台新金</item>
+        <item>2887E.TW 台新戊特</item>
+        <item>2888.TW 新光金</item>
+        <item>2889.TW 國票金</item>
+        <item>2890.TW 永豐金</item>
+        <item>2891.TW 中信金</item>
+        <item>2892.TW 第一金</item>
+        <item>2897.TW 王道銀行</item>
+        <item>2901.TW 欣欣</item>
+        <item>2903.TW 遠百</item>
+        <item>2904.TW 匯僑</item>
+        <item>2905.TW 三商</item>
+        <item>2906.TW 高林</item>
+        <item>2908.TW 特力</item>
+        <item>2910.TW 統領</item>
+        <item>2911.TW 麗嬰房</item>
+        <item>2912.TW 統一超</item>
+        <item>2913.TW 農林</item>
+        <item>2915.TW 潤泰全</item>
+        <item>2923.TW 鼎固-KY</item>
+        <item>2929.TW 淘帝-KY</item>
+        <item>2936.TW 客思達-KY</item>
+        <item>3002.TW 歐格</item>
+        <item>3003.TW 健和興</item>
+        <item>3004.TW 豐達科</item>
+        <item>3005.TW 神基</item>
+        <item>3006.TW 晶豪科</item>
+        <item>3008.TW 大立光</item>
+        <item>3010.TW 華立</item>
+        <item>3011.TW 今皓</item>
+        <item>3013.TW 晟銘電</item>
+        <item>3014.TW 聯陽</item>
+        <item>3015.TW 全漢</item>
+        <item>3016.TW 嘉晶</item>
+        <item>3017.TW 奇鋐</item>
+        <item>3018.TW 同開</item>
+        <item>3019.TW 亞光</item>
+        <item>3021.TW 鴻名</item>
+        <item>3022.TW 威強電</item>
+        <item>3023.TW 信邦</item>
+        <item>3024.TW 憶聲</item>
+        <item>3025.TW 星通</item>
+        <item>3026.TW 禾伸堂</item>
+        <item>3027.TW 盛達</item>
+        <item>3028.TW 增你強</item>
+        <item>3029.TW 零壹</item>
+        <item>3030.TW 德律</item>
+        <item>3031.TW 佰鴻</item>
+        <item>3032.TW 偉訓</item>
+        <item>3033.TW 威健</item>
+        <item>3034.TW 聯詠</item>
+        <item>3035.TW 智原</item>
+        <item>3036.TW 文曄</item>
+        <item>3037.TW 欣興</item>
+        <item>3038.TW 全台</item>
+        <item>3040.TW 遠見</item>
+        <item>3041.TW 揚智</item>
+        <item>3042.TW 晶技</item>
+        <item>3043.TW 科風</item>
+        <item>3044.TW 健鼎</item>
+        <item>3045.TW 台灣大</item>
+        <item>3046.TW 建碁</item>
+        <item>3047.TW 訊舟</item>
+        <item>3048.TW 益登</item>
+        <item>3049.TW 和鑫</item>
+        <item>3050.TW 鈺德</item>
+        <item>3051.TW 力特</item>
+        <item>3052.TW 夆典</item>
+        <item>3054.TW 立萬利</item>
+        <item>3055.TW 蔚華科</item>
+        <item>3056.TW 總太</item>
+        <item>3057.TW 喬鼎</item>
+        <item>3058.TW 立德</item>
+        <item>3059.TW 華晶科</item>
+        <item>3060.TW 銘異</item>
+        <item>3062.TW 建漢</item>
+        <item>3090.TW 日電貿</item>
+        <item>3094.TW 聯傑</item>
+        <item>3130.TW 一零四</item>
+        <item>3149.TW 正達</item>
+        <item>3164.TW 景岳</item>
+        <item>3167.TW 大量</item>
+        <item>3189.TW 景碩</item>
+        <item>3209.TW 全科</item>
+        <item>3229.TW 晟鈦</item>
+        <item>3231.TW 緯創</item>
+        <item>3257.TW 虹冠電</item>
+        <item>3266.TW 昇陽</item>
+        <item>3296.TW 勝德</item>
+        <item>3305.TW 昇貿</item>
+        <item>3308.TW 聯德</item>
+        <item>3311.TW 閎暉</item>
+        <item>3312.TW 弘憶股</item>
+        <item>3321.TW 同泰</item>
+        <item>3338.TW 泰碩</item>
+        <item>3346.TW 麗清</item>
+        <item>3356.TW 奇偶</item>
+        <item>3376.TW 新日興</item>
+        <item>3380.TW 明泰</item>
+        <item>3383.TW 新世紀</item>
+        <item>3406.TW 玉晶光</item>
+        <item>3413.TW 京鼎</item>
+        <item>3416.TW 融程電</item>
+        <item>3419.TW 譁裕</item>
+        <item>3432.TW 台端</item>
+        <item>3437.TW 榮創</item>
+        <item>3443.TW 創意</item>
+        <item>3450.TW 聯鈞</item>
+        <item>3454.TW 晶睿</item>
+        <item>3481.TW 群創</item>
+        <item>3494.TW 誠研</item>
+        <item>3501.TW 維熹</item>
+        <item>3504.TW 揚明光</item>
+        <item>3514.TW 昱晶</item>
+        <item>3515.TW 華擎</item>
+        <item>3518.TW 柏騰</item>
+        <item>3519.TW 綠能</item>
+        <item>3528.TW 安馳</item>
+        <item>3532.TW 台勝科</item>
+        <item>3533.TW 嘉澤</item>
+        <item>3535.TW 晶彩科</item>
+        <item>3536.TW 誠創</item>
+        <item>3545.TW 敦泰</item>
+        <item>3550.TW 聯穎</item>
+        <item>3557.TW 嘉威</item>
+        <item>3561.TW 昇陽光電</item>
+        <item>3576.TW 新日光</item>
+        <item>3579.TW 尚志</item>
+        <item>3583.TW 辛耘</item>
+        <item>3588.TW 通嘉</item>
+        <item>3591.TW 艾笛森</item>
+        <item>3593.TW 力銘</item>
+        <item>3596.TW 智易</item>
+        <item>3605.TW 宏致</item>
+        <item>3607.TW 谷崧</item>
+        <item>3617.TW 碩天</item>
+        <item>3622.TW 洋華</item>
+        <item>3645.TW 達邁</item>
+        <item>3653.TW 健策</item>
+        <item>3661.TW 世芯-KY</item>
+        <item>3665.TW 貿聯-KY</item>
+        <item>3669.TW 圓展</item>
+        <item>3673.TW TPK-KY</item>
+        <item>3679.TW 新至陞</item>
+        <item>3682.TW 亞太電</item>
+        <item>3686.TW 達能</item>
+        <item>3694.TW 海華</item>
+        <item>3698.TW 隆達</item>
+        <item>3701.TW 大眾控</item>
+        <item>3702.TW 大聯大</item>
+        <item>3703.TW 欣陸</item>
+        <item>3704.TW 合勤控</item>
+        <item>3705.TW 永信</item>
+        <item>3706.TW 神達</item>
+        <item>3708.TW 上緯投控</item>
+        <item>4104.TW 佳醫</item>
+        <item>4106.TW 雃博</item>
+        <item>4108.TW 懷特</item>
+        <item>4119.TW 旭富</item>
+        <item>4133.TW 亞諾法</item>
+        <item>4137.TW 麗豐-KY</item>
+        <item>4141.TW 龍燈-KY</item>
+        <item>4142.TW 國光生</item>
+        <item>4144.TW 康聯-KY</item>
+        <item>4148.TW 全宇生技-KY</item>
+        <item>4164.TW 承業醫</item>
+        <item>4190.TW 佐登-KY</item>
+        <item>4306.TW 炎洲</item>
+        <item>4414.TW 如興</item>
+        <item>4426.TW 利勤</item>
+        <item>4438.TW 廣越</item>
+        <item>4526.TW 東台</item>
+        <item>4532.TW 瑞智</item>
+        <item>4536.TW 拓凱</item>
+        <item>4545.TW 銘鈺</item>
+        <item>4551.TW 智伸科</item>
+        <item>4552.TW 力達-KY</item>
+        <item>4555.TW 氣立</item>
+        <item>4557.TW 永新-KY</item>
+        <item>4560.TW 強信-KY</item>
+        <item>4562.TW 穎漢</item>
+        <item>4720.TW 德淵</item>
+        <item>4722.TW 國精化</item>
+        <item>4725.TW 信昌化</item>
+        <item>4737.TW 華廣</item>
+        <item>4739.TW 康普</item>
+        <item>4746.TW 台耀</item>
+        <item>4755.TW 三福化</item>
+        <item>4763.TW 材料-KY</item>
+        <item>4807.TW 日成-KY</item>
+        <item>4904.TW 遠傳</item>
+        <item>4906.TW 正文</item>
+        <item>4912.TW 聯德控股-KY</item>
+        <item>4915.TW 致伸</item>
+        <item>4916.TW 事欣科</item>
+        <item>4919.TW 新唐</item>
+        <item>4927.TW 泰鼎-KY</item>
+        <item>4930.TW 燦星網</item>
+        <item>4934.TW 太極</item>
+        <item>4935.TW 茂林-KY</item>
+        <item>4938.TW 和碩</item>
+        <item>4942.TW 嘉彰</item>
+        <item>4943.TW 康控-KY</item>
+        <item>4952.TW 凌通</item>
+        <item>4956.TW 光鋐</item>
+        <item>4958.TW 臻鼎-KY</item>
+        <item>4960.TW 奇美材</item>
+        <item>4968.TW 立積</item>
+        <item>4976.TW 佳凌</item>
+        <item>4977.TW 眾達-KY</item>
+        <item>4984.TW 科納-KY</item>
+        <item>4994.TW 傳奇</item>
+        <item>4999.TW 鑫禾</item>
+        <item>5007.TW 三星</item>
+        <item>5203.TW 訊連</item>
+        <item>5215.TW 科嘉-KY</item>
+        <item>5225.TW 東科-KY</item>
+        <item>5234.TW 達興材料</item>
+        <item>5243.TW 乙盛-KY</item>
+        <item>5258.TW 虹堡</item>
+        <item>5264.TW 鎧勝-KY</item>
+        <item>5269.TW 祥碩</item>
+        <item>5284.TW jpp-KY</item>
+        <item>5285.TW 界霖</item>
+        <item>5288.TW 豐祥-KY</item>
+        <item>5305.TW 敦南</item>
+        <item>5388.TW 中磊</item>
+        <item>5434.TW 崇越</item>
+        <item>5469.TW 瀚宇博</item>
+        <item>5471.TW 松翰</item>
+        <item>5484.TW 慧友</item>
+        <item>5515.TW 建國</item>
+        <item>5519.TW 隆大</item>
+        <item>5521.TW 工信</item>
+        <item>5522.TW 遠雄</item>
+        <item>5525.TW 順天</item>
+        <item>5531.TW 鄉林</item>
+        <item>5533.TW 皇鼎</item>
+        <item>5534.TW 長虹</item>
+        <item>5538.TW 東明-KY</item>
+        <item>5607.TW 遠雄港</item>
+        <item>5608.TW 四維航</item>
+        <item>5706.TW 鳳凰</item>
+        <item>5871.TW 中租-KY</item>
+        <item>5880.TW 合庫金</item>
+        <item>5906.TW 台南-KY</item>
+        <item>5907.TW 大洋-KY</item>
+        <item>6005.TW 群益證</item>
+        <item>6024.TW 群益期</item>
+        <item>6108.TW 競國</item>
+        <item>6112.TW 聚碩</item>
+        <item>6115.TW 鎰勝</item>
+        <item>6116.TW 彩晶</item>
+        <item>6117.TW 迎廣</item>
+        <item>6120.TW 達運</item>
+        <item>6128.TW 上福</item>
+        <item>6131.TW 悠克</item>
+        <item>6133.TW 金橋</item>
+        <item>6136.TW 富爾特</item>
+        <item>6139.TW 亞翔</item>
+        <item>6141.TW 柏承</item>
+        <item>6142.TW 友勁</item>
+        <item>6145.TW 勁永</item>
+        <item>6152.TW 百一</item>
+        <item>6153.TW 嘉聯益</item>
+        <item>6155.TW 鈞寶</item>
+        <item>6164.TW 華興</item>
+        <item>6165.TW 捷泰</item>
+        <item>6166.TW 凌華</item>
+        <item>6168.TW 宏齊</item>
+        <item>6172.TW 互億</item>
+        <item>6176.TW 瑞儀</item>
+        <item>6177.TW 達麗</item>
+        <item>6183.TW 關貿</item>
+        <item>6184.TW 大豐電</item>
+        <item>6189.TW 豐藝</item>
+        <item>6191.TW 精成科</item>
+        <item>6192.TW 巨路</item>
+        <item>6196.TW 帆宣</item>
+        <item>6197.TW 佳必琪</item>
+        <item>6201.TW 亞弘電</item>
+        <item>6202.TW 盛群</item>
+        <item>6205.TW 詮欣</item>
+        <item>6206.TW 飛捷</item>
+        <item>6209.TW 今國光</item>
+        <item>6213.TW 聯茂</item>
+        <item>6214.TW 精誠</item>
+        <item>6215.TW 和椿</item>
+        <item>6216.TW 居易</item>
+        <item>6224.TW 聚鼎</item>
+        <item>6225.TW 天瀚</item>
+        <item>6226.TW 光鼎</item>
+        <item>6230.TW 超眾</item>
+        <item>6235.TW 華孚</item>
+        <item>6239.TW 力成</item>
+        <item>6243.TW 迅杰</item>
+        <item>6251.TW 定穎</item>
+        <item>6257.TW 矽格</item>
+        <item>6269.TW 台郡</item>
+        <item>6271.TW 同欣電</item>
+        <item>6277.TW 宏正</item>
+        <item>6278.TW 台表科</item>
+        <item>6281.TW 全國電</item>
+        <item>6282.TW 康舒</item>
+        <item>6283.TW 淳安</item>
+        <item>6285.TW 啟碁</item>
+        <item>6289.TW 華上</item>
+        <item>6405.TW 悅城</item>
+        <item>6409.TW 旭隼</item>
+        <item>6412.TW 群電</item>
+        <item>6414.TW 樺漢</item>
+        <item>6415.TW 矽力-KY</item>
+        <item>6422.TW 君耀-KY</item>
+        <item>6431.TW 光麗-KY</item>
+        <item>6442.TW 光聖</item>
+        <item>6443.TW 元晶</item>
+        <item>6449.TW 鈺邦</item>
+        <item>6451.TW 訊芯-KY</item>
+        <item>6452.TW 康友-KY</item>
+        <item>6456.TW GIS-KY</item>
+        <item>6464.TW 台數科</item>
+        <item>6477.TW 安集</item>
+        <item>6504.TW 南六</item>
+        <item>6505.TW 台塑化</item>
+        <item>6525.TW 捷敏-KY</item>
+        <item>6531.TW 愛普</item>
+        <item>6533.TW 晶心科</item>
+        <item>6541.TW 泰福-KY</item>
+        <item>6552.TW 易華電</item>
+        <item>6573.TW 虹揚-KY</item>
+        <item>6579.TW 研揚</item>
+        <item>6582.TW 申豐</item>
+        <item>6605.TW 帝寶</item>
+        <item>8011.TW 台通</item>
+        <item>8016.TW 矽創</item>
+        <item>8021.TW 尖點</item>
+        <item>8033.TW 雷虎</item>
+        <item>8039.TW 台虹</item>
+        <item>8046.TW 南電</item>
+        <item>8070.TW 長華</item>
+        <item>8072.TW 陞泰</item>
+        <item>8081.TW 致新</item>
+        <item>8101.TW 華冠</item>
+        <item>8103.TW 瀚荃</item>
+        <item>8105.TW 凌巨</item>
+        <item>8110.TW 華東</item>
+        <item>8112.TW 至上</item>
+        <item>8114.TW 振樺電</item>
+        <item>8131.TW 福懋科</item>
+        <item>8150.TW 南茂</item>
+        <item>8163.TW 達方</item>
+        <item>8201.TW 無敵</item>
+        <item>8210.TW 勤誠</item>
+        <item>8213.TW 志超</item>
+        <item>8215.TW 明基材</item>
+        <item>8222.TW 寶一</item>
+        <item>8249.TW 菱光</item>
+        <item>8261.TW 富鼎</item>
+        <item>8271.TW 宇瞻</item>
+        <item>8341.TW 日友</item>
+        <item>8374.TW 羅昇</item>
+        <item>8404.TW 百和興業-KY</item>
+        <item>8411.TW 福貞-KY</item>
+        <item>8422.TW 可寧衛</item>
+        <item>8427.TW 基勝-KY</item>
+        <item>8429.TW 金麗-KY</item>
+        <item>8442.TW 威宏-KY</item>
+        <item>8443.TW 阿瘦</item>
+        <item>8454.TW 富邦媒</item>
+        <item>8463.TW 潤泰材</item>
+        <item>8464.TW 億豐</item>
+        <item>8466.TW 美喆-KY</item>
+        <item>8467.TW 波力-KY</item>
+        <item>8473.TW 山林水</item>
+        <item>8480.TW 泰昇-KY</item>
+        <item>8481.TW 政伸</item>
+        <item>8488.TW 吉源-KY</item>
+        <item>8926.TW 台汽電</item>
+        <item>8940.TW 新天地</item>
+        <item>8996.TW 高力</item>
+        <item>9103.TW 美德醫療-DR</item>
+        <item>910322.TW 康師傅-DR</item>
+        <item>910482.TW 聖馬丁-DR</item>
+        <item>9105.TW 泰金寶-DR</item>
+        <item>910708.TW 恒大健-DR</item>
+        <item>910801.TW 金衛-DR</item>
+        <item>910861.TW 神州-DR</item>
+        <item>9110.TW 越南控-DR</item>
+        <item>911608.TW 明輝-DR</item>
+        <item>911616.TW 杜康-DR</item>
+        <item>911619.TW 耀傑-DR</item>
+        <item>911622.TW 泰聚亨-DR</item>
+        <item>911868.TW 同方友友-DR</item>
+        <item>912000.TW 晨訊科-DR</item>
+        <item>912398.TW 友佳-DR</item>
+        <item>9136.TW 巨騰-DR</item>
+        <item>9157.TW 陽光能源-DR</item>
+        <item>9188.TW 精熙-DR</item>
+        <item>9802.TW 鈺齊-KY</item>
+        <item>9902.TW 台火</item>
+        <item>9904.TW 寶成</item>
+        <item>9905.TW 大華</item>
+        <item>9906.TW 欣巴巴</item>
+        <item>9907.TW 統一實</item>
+        <item>9908.TW 大台北</item>
+        <item>9910.TW 豐泰</item>
+        <item>9911.TW 櫻花</item>
+        <item>9912.TW 偉聯</item>
+        <item>9914.TW 美利達</item>
+        <item>9917.TW 中保</item>
+        <item>9918.TW 欣天然</item>
+        <item>9919.TW 康那香</item>
+        <item>9921.TW 巨大</item>
+        <item>9924.TW 福興</item>
+        <item>9925.TW 新保</item>
+        <item>9926.TW 新海</item>
+        <item>9927.TW 泰銘</item>
+        <item>9928.TW 中視</item>
+        <item>9929.TW 秋雨</item>
+        <item>9930.TW 中聯資源</item>
+        <item>9931.TW 欣高</item>
+        <item>9933.TW 中鼎</item>
+        <item>9934.TW 成霖</item>
+        <item>9935.TW 慶豐富</item>
+        <item>9937.TW 全國</item>
+        <item>9938.TW 百和</item>
+        <item>9939.TW 宏全</item>
+        <item>9940.TW 信義</item>
+        <item>9941.TW 裕融</item>
+        <item>9942.TW 茂順</item>
+        <item>9943.TW 好樂迪</item>
+        <item>9944.TW 新麗</item>
+        <item>9945.TW 潤泰新</item>
+        <item>9946.TW 三發地產</item>
+        <item>9955.TW 佳龍</item>
+        <item>9958.TW 世紀鋼</item>
+        <item>006201.TWO 元大富櫃50</item>
+        <item>00679B.TWO 元大美債20年</item>
+        <item>00687B.TWO 國泰20年美債</item>
+        <item>00694B.TWO 富邦美債1-3</item>
+        <item>00695B.TWO 富邦美債7-10</item>
+        <item>00696B.TWO 富邦美債20年</item>
+        <item>00697B.TWO 元大美債7-10</item>
+        <item>1258.TWO 其祥-KY</item>
+        <item>1259.TWO 安心</item>
+        <item>1264.TWO 德麥</item>
+        <item>1268.TWO 漢來美食</item>
+        <item>1333.TWO 恩得利</item>
+        <item>1336.TWO 台翰</item>
+        <item>1565.TWO 精華</item>
+        <item>1566.TWO 捷邦</item>
+        <item>1569.TWO 濱川</item>
+        <item>1570.TWO 力肯</item>
+        <item>1580.TWO 新麥</item>
+        <item>1584.TWO 精剛</item>
+        <item>1586.TWO 和勤</item>
+        <item>1591.TWO 駿吉-KY</item>
+        <item>1593.TWO 祺驊</item>
+        <item>1595.TWO 川寶</item>
+        <item>1597.TWO 直得</item>
+        <item>1599.TWO 宏佳騰</item>
+        <item>1742.TWO 台蠟</item>
+        <item>1752.TWO 南光</item>
+        <item>1777.TWO 生泰</item>
+        <item>1781.TWO 合世</item>
+        <item>1784.TWO 訊聯</item>
+        <item>1785.TWO 光洋科</item>
+        <item>1787.TWO 福盈科</item>
+        <item>1788.TWO 杏昌</item>
+        <item>1795.TWO 美時</item>
+        <item>1799.TWO 易威</item>
+        <item>1813.TWO 寶利徠</item>
+        <item>1815.TWO 富喬</item>
+        <item>2035.TWO 唐榮</item>
+        <item>2061.TWO 風青</item>
+        <item>2063.TWO 世鎧</item>
+        <item>2064.TWO 晉椿</item>
+        <item>2065.TWO 世豐</item>
+        <item>2066.TWO 世德</item>
+        <item>2067.TWO 嘉鋼</item>
+        <item>2221.TWO 大甲</item>
+        <item>2230.TWO 泰茂</item>
+        <item>2233.TWO 宇隆</item>
+        <item>2235.TWO 謚源</item>
+        <item>2596.TWO 綠意</item>
+        <item>2640.TWO 大車隊</item>
+        <item>2641.TWO 正德</item>
+        <item>2643.TWO 捷迅</item>
+        <item>2718.TWO 晶悅</item>
+        <item>2719.TWO 燦星旅</item>
+        <item>2726.TWO 雅茗-KY</item>
+        <item>2729.TWO 瓦城</item>
+        <item>2732.TWO 六角</item>
+        <item>2734.TWO 易飛網</item>
+        <item>2736.TWO 高野</item>
+        <item>2740.TWO 天蔥</item>
+        <item>2916.TWO 滿心</item>
+        <item>2924.TWO 東凌-KY</item>
+        <item>2926.TWO 誠品生活</item>
+        <item>2928.TWO 紅馬-KY</item>
+        <item>2937.TWO 集雅社</item>
+        <item>3064.TWO 泰偉</item>
+        <item>3066.TWO 李洲</item>
+        <item>3067.TWO 全域</item>
+        <item>3068.TWO 美磊</item>
+        <item>3071.TWO 協禧</item>
+        <item>3073.TWO 凱柏實業</item>
+        <item>3078.TWO 僑威</item>
+        <item>3081.TWO 聯亞</item>
+        <item>3083.TWO 網龍</item>
+        <item>3085.TWO 新零售</item>
+        <item>3086.TWO 華義</item>
+        <item>3088.TWO 艾訊</item>
+        <item>3089.TWO 遠昇</item>
+        <item>3092.TWO 鴻碩</item>
+        <item>3093.TWO 港建</item>
+        <item>3095.TWO 及成</item>
+        <item>3105.TWO 穩懋</item>
+        <item>3114.TWO 好德</item>
+        <item>3115.TWO 寶島極</item>
+        <item>3118.TWO 進階</item>
+        <item>3122.TWO 笙泉</item>
+        <item>3128.TWO 昇銳</item>
+        <item>3131.TWO 弘塑</item>
+        <item>3141.TWO 晶宏</item>
+        <item>3144.TWO 新揚科</item>
+        <item>3152.TWO 璟德</item>
+        <item>3162.TWO 精確</item>
+        <item>3163.TWO 波若威</item>
+        <item>3169.TWO 亞信</item>
+        <item>3171.TWO 新洲</item>
+        <item>3176.TWO 基亞</item>
+        <item>3188.TWO 鑫龍騰</item>
+        <item>3191.TWO 和進</item>
+        <item>3202.TWO 樺晟</item>
+        <item>3205.TWO 佰研</item>
+        <item>3206.TWO 志豐</item>
+        <item>3207.TWO 耀勝</item>
+        <item>3211.TWO 順達</item>
+        <item>3213.TWO 茂訊</item>
+        <item>3217.TWO 優群</item>
+        <item>3218.TWO 大學光</item>
+        <item>3221.TWO 台嘉碩</item>
+        <item>3224.TWO 三顧</item>
+        <item>3226.TWO 至寶電</item>
+        <item>3227.TWO 原相</item>
+        <item>3228.TWO 金麗科</item>
+        <item>3230.TWO 錦明</item>
+        <item>3232.TWO 昱捷</item>
+        <item>3234.TWO 光環</item>
+        <item>3236.TWO 千如</item>
+        <item>3252.TWO 海灣</item>
+        <item>3259.TWO 鑫創</item>
+        <item>3260.TWO 威剛</item>
+        <item>3264.TWO 欣銓</item>
+        <item>3265.TWO 台星科</item>
+        <item>3268.TWO 海德威</item>
+        <item>3272.TWO 東碩</item>
+        <item>3276.TWO 宇環</item>
+        <item>3284.TWO 太普高</item>
+        <item>3285.TWO 微端</item>
+        <item>3287.TWO 廣寰科</item>
+        <item>3288.TWO 點晶</item>
+        <item>3289.TWO 宜特</item>
+        <item>3290.TWO 東浦</item>
+        <item>3293.TWO 鈊象</item>
+        <item>3294.TWO 英濟</item>
+        <item>3297.TWO 杭特</item>
+        <item>3299.TWO 帛漢</item>
+        <item>3303.TWO 岱稜</item>
+        <item>3306.TWO 鼎天</item>
+        <item>3310.TWO 佳穎</item>
+        <item>3313.TWO 斐成</item>
+        <item>3317.TWO 尼克森</item>
+        <item>3322.TWO 建舜電</item>
+        <item>3323.TWO 加百裕</item>
+        <item>3324.TWO 雙鴻</item>
+        <item>3325.TWO 旭品</item>
+        <item>3332.TWO 幸康</item>
+        <item>3339.TWO 泰谷</item>
+        <item>3354.TWO 律勝</item>
+        <item>3360.TWO 尚立</item>
+        <item>3362.TWO 先進光</item>
+        <item>3363.TWO 上詮</item>
+        <item>3372.TWO 典範</item>
+        <item>3373.TWO 熱映</item>
+        <item>3374.TWO 精材</item>
+        <item>3379.TWO 彬台</item>
+        <item>3388.TWO 崇越電</item>
+        <item>3390.TWO 旭軟</item>
+        <item>3402.TWO 漢科</item>
+        <item>3426.TWO 台興</item>
+        <item>3428.TWO 光燿科</item>
+        <item>3431.TWO 長天</item>
+        <item>3434.TWO 哲固</item>
+        <item>3438.TWO 類比科</item>
+        <item>3441.TWO 聯一光</item>
+        <item>3444.TWO 利機</item>
+        <item>3452.TWO 益通</item>
+        <item>3455.TWO 由田</item>
+        <item>3465.TWO 祥業</item>
+        <item>3466.TWO 致振</item>
+        <item>3479.TWO 安勤</item>
+        <item>3483.TWO 力致</item>
+        <item>3484.TWO 崧騰</item>
+        <item>3489.TWO 森寶</item>
+        <item>3490.TWO 單井</item>
+        <item>3491.TWO 昇達科</item>
+        <item>3492.TWO 長盛</item>
+        <item>3498.TWO 陽程</item>
+        <item>3499.TWO 環天科</item>
+        <item>3508.TWO 位速</item>
+        <item>3511.TWO 矽瑪</item>
+        <item>3512.TWO 能緹</item>
+        <item>3516.TWO 亞帝歐</item>
+        <item>3520.TWO 振維</item>
+        <item>3521.TWO 鴻翊</item>
+        <item>3522.TWO 宏森</item>
+        <item>3523.TWO 迎輝</item>
+        <item>3526.TWO 凡甲</item>
+        <item>3527.TWO 聚積</item>
+        <item>3529.TWO 力旺</item>
+        <item>3531.TWO 先益</item>
+        <item>3537.TWO 堡達</item>
+        <item>3540.TWO 曜越</item>
+        <item>3541.TWO 西柏</item>
+        <item>3546.TWO 宇峻</item>
+        <item>3548.TWO 兆利</item>
+        <item>3551.TWO 世禾</item>
+        <item>3552.TWO 同致</item>
+        <item>3555.TWO 重鳥鵬</item>
+        <item>3556.TWO 禾瑞亞</item>
+        <item>3558.TWO 神準</item>
+        <item>3562.TWO 頂晶科</item>
+        <item>3563.TWO 牧德</item>
+        <item>3564.TWO 其陽</item>
+        <item>3567.TWO 逸昌</item>
+        <item>3570.TWO 大塚</item>
+        <item>3577.TWO 泓格</item>
+        <item>3580.TWO 友威科</item>
+        <item>3581.TWO 博磊</item>
+        <item>3587.TWO 閎康</item>
+        <item>3594.TWO 磐儀</item>
+        <item>3609.TWO 東林</item>
+        <item>3611.TWO 鼎翰</item>
+        <item>3615.TWO 安可</item>
+        <item>3623.TWO 富晶通</item>
+        <item>3624.TWO 光頡</item>
+        <item>3625.TWO 西勝</item>
+        <item>3628.TWO 盈正</item>
+        <item>3629.TWO 群富通</item>
+        <item>3630.TWO 新鉅科</item>
+        <item>3631.TWO 晟楠</item>
+        <item>3632.TWO 研勤</item>
+        <item>3642.TWO 駿熠電</item>
+        <item>3646.TWO 艾恩特</item>
+        <item>3652.TWO 精聯</item>
+        <item>3663.TWO 鑫科</item>
+        <item>3664.TWO 安瑞-KY</item>
+        <item>3666.TWO 光耀</item>
+        <item>3672.TWO 康聯訊</item>
+        <item>3675.TWO 德微</item>
+        <item>3680.TWO 家登</item>
+        <item>3684.TWO 榮昌</item>
+        <item>3685.TWO 元創精密</item>
+        <item>3687.TWO 歐買尬</item>
+        <item>3689.TWO 湧德</item>
+        <item>3691.TWO 碩禾</item>
+        <item>3693.TWO 營邦</item>
+        <item>3707.TWO 漢磊</item>
+        <item>3709.TWO 鑫聯大投控</item>
+        <item>4102.TWO 永日</item>
+        <item>4103.TWO 百略</item>
+        <item>4105.TWO 東洋</item>
+        <item>4107.TWO 邦特</item>
+        <item>4109.TWO 穆拉德加捷</item>
+        <item>4111.TWO 濟生</item>
+        <item>4113.TWO 聯上</item>
+        <item>4114.TWO 健喬</item>
+        <item>4116.TWO 明基醫</item>
+        <item>4120.TWO 友華</item>
+        <item>4121.TWO 優盛</item>
+        <item>4123.TWO 晟德</item>
+        <item>4126.TWO 太醫</item>
+        <item>4127.TWO 天良</item>
+        <item>4128.TWO 中天</item>
+        <item>4129.TWO 聯合</item>
+        <item>4130.TWO 健亞</item>
+        <item>4131.TWO 晶宇</item>
+        <item>4138.TWO 曜亞</item>
+        <item>4139.TWO 馬光-KY</item>
+        <item>4147.TWO 中裕</item>
+        <item>4152.TWO 台微體</item>
+        <item>4153.TWO 鈺緯</item>
+        <item>4154.TWO 康樂-KY</item>
+        <item>4157.TWO 太景*-KY</item>
+        <item>4160.TWO 創源</item>
+        <item>4161.TWO 聿新科</item>
+        <item>4162.TWO 智擎</item>
+        <item>4163.TWO 鐿鈦</item>
+        <item>4167.TWO 展旺</item>
+        <item>4168.TWO 醣聯</item>
+        <item>4171.TWO 瑞基</item>
+        <item>4173.TWO 久裕</item>
+        <item>4174.TWO 浩鼎</item>
+        <item>4175.TWO 杏一</item>
+        <item>4180.TWO 安成藥</item>
+        <item>4183.TWO 福永生技</item>
+        <item>4188.TWO 安克</item>
+        <item>4192.TWO 杏國</item>
+        <item>4198.TWO 環瑞醫</item>
+        <item>4205.TWO 中華食</item>
+        <item>4207.TWO 環泰</item>
+        <item>4303.TWO 信立</item>
+        <item>4304.TWO 勝昱</item>
+        <item>4305.TWO 世坤</item>
+        <item>4401.TWO 東隆興</item>
+        <item>4402.TWO 福大</item>
+        <item>4406.TWO 新昕纖</item>
+        <item>4413.TWO 飛寶企業</item>
+        <item>4416.TWO 三圓</item>
+        <item>4417.TWO 金洲</item>
+        <item>4419.TWO 元勝</item>
+        <item>4420.TWO 光明</item>
+        <item>4429.TWO 聚紡</item>
+        <item>4430.TWO 耀億</item>
+        <item>4432.TWO 銘旺實</item>
+        <item>4433.TWO 興采</item>
+        <item>4502.TWO 健信</item>
+        <item>4503.TWO 金雨</item>
+        <item>4506.TWO 崇友</item>
+        <item>4510.TWO 高鋒</item>
+        <item>4513.TWO 福裕</item>
+        <item>4523.TWO 永彰</item>
+        <item>4527.TWO 方土霖</item>
+        <item>4528.TWO 江興鍛</item>
+        <item>4529.TWO 淳紳</item>
+        <item>4530.TWO 宏易</item>
+        <item>4533.TWO 協易機</item>
+        <item>4534.TWO 慶騰</item>
+        <item>4535.TWO 至興</item>
+        <item>4541.TWO 晟田</item>
+        <item>4542.TWO 科嶠</item>
+        <item>4543.TWO 萬在</item>
+        <item>4549.TWO 桓達</item>
+        <item>4550.TWO 長佳</item>
+        <item>4554.TWO 橙的</item>
+        <item>4556.TWO 旭然</item>
+        <item>4609.TWO 唐鋒</item>
+        <item>4702.TWO 中美實</item>
+        <item>4706.TWO 大恭</item>
+        <item>4707.TWO 磐亞</item>
+        <item>4711.TWO 永純</item>
+        <item>4712.TWO 南璋</item>
+        <item>4714.TWO 永捷</item>
+        <item>4716.TWO 大立</item>
+        <item>4721.TWO 美琪瑪</item>
+        <item>4726.TWO 永昕</item>
+        <item>4728.TWO 雙美</item>
+        <item>4729.TWO 熒茂</item>
+        <item>4735.TWO 豪展</item>
+        <item>4736.TWO 泰博</item>
+        <item>4741.TWO 泓瀚</item>
+        <item>4743.TWO 合一</item>
+        <item>4745.TWO 合富-KY</item>
+        <item>4747.TWO 強生</item>
+        <item>4754.TWO 國碳科</item>
+        <item>4803.TWO VHQ-KY</item>
+        <item>4804.TWO 大略-KY</item>
+        <item>4806.TWO 昇華</item>
+        <item>4903.TWO 聯光通</item>
+        <item>4905.TWO 台聯電</item>
+        <item>4907.TWO 富宇</item>
+        <item>4908.TWO 前鼎</item>
+        <item>4909.TWO 新復興</item>
+        <item>4911.TWO 德英</item>
+        <item>4924.TWO 欣厚-KY</item>
+        <item>4933.TWO 友輝</item>
+        <item>4939.TWO 亞電</item>
+        <item>4944.TWO 兆遠</item>
+        <item>4946.TWO 辣椒</item>
+        <item>4947.TWO 昂寶-KY</item>
+        <item>4950.TWO 牧東</item>
+        <item>4953.TWO 緯軟</item>
+        <item>4965.TWO 商店街</item>
+        <item>4966.TWO 譜瑞-KY</item>
+        <item>4971.TWO IET-KY</item>
+        <item>4972.TWO 湯石照明</item>
+        <item>4973.TWO 廣穎</item>
+        <item>4974.TWO 亞泰</item>
+        <item>4979.TWO 華星光</item>
+        <item>4987.TWO 科誠</item>
+        <item>4991.TWO 環宇-KY</item>
+        <item>4995.TWO 晶達</item>
+        <item>5009.TWO 榮剛</item>
+        <item>5011.TWO 久陽</item>
+        <item>5013.TWO 強新</item>
+        <item>5014.TWO 建錩</item>
+        <item>5015.TWO 華祺</item>
+        <item>5016.TWO 松和</item>
+        <item>5102.TWO 富強</item>
+        <item>5201.TWO 凱衛</item>
+        <item>5202.TWO 力新</item>
+        <item>5205.TWO 漢康</item>
+        <item>5206.TWO 坤悅</item>
+        <item>5209.TWO 新鼎</item>
+        <item>5210.TWO 寶碩</item>
+        <item>5211.TWO 蒙恬</item>
+        <item>5212.TWO 凌網</item>
+        <item>5213.TWO 亞昕</item>
+        <item>5227.TWO 立凱-KY</item>
+        <item>5230.TWO 雷笛克光學</item>
+        <item>5245.TWO 智晶</item>
+        <item>5251.TWO 天鉞電</item>
+        <item>5255.TWO 美桀</item>
+        <item>5263.TWO 智崴</item>
+        <item>5272.TWO 笙科</item>
+        <item>5274.TWO 信驊</item>
+        <item>5276.TWO 達輝-KY</item>
+        <item>5278.TWO 尚凡</item>
+        <item>5281.TWO 大峽谷-KY</item>
+        <item>5287.TWO 數字</item>
+        <item>5289.TWO 宜鼎</item>
+        <item>5291.TWO 邑昇</item>
+        <item>5301.TWO 寶得利</item>
+        <item>5302.TWO 太欣</item>
+        <item>5304.TWO 鼎創達</item>
+        <item>5306.TWO 桂盟</item>
+        <item>5309.TWO 系統電</item>
+        <item>5310.TWO 天剛</item>
+        <item>5312.TWO 寶島科</item>
+        <item>5314.TWO 世紀</item>
+        <item>5315.TWO 光聯</item>
+        <item>5317.TWO 凱美</item>
+        <item>5321.TWO 友銓</item>
+        <item>5324.TWO 士開</item>
+        <item>5328.TWO 華容</item>
+        <item>5340.TWO 建榮</item>
+        <item>5344.TWO 立衛</item>
+        <item>5345.TWO 天揚</item>
+        <item>5347.TWO 世界</item>
+        <item>5348.TWO 系通</item>
+        <item>5349.TWO 先豐</item>
+        <item>5351.TWO 鈺創</item>
+        <item>5353.TWO 台林</item>
+        <item>5355.TWO 佳總</item>
+        <item>5356.TWO 協益</item>
+        <item>5364.TWO 力麗店</item>
+        <item>5371.TWO 中光電</item>
+        <item>5381.TWO 合正</item>
+        <item>5383.TWO 金利</item>
+        <item>5386.TWO 青雲</item>
+        <item>5392.TWO 應華</item>
+        <item>5398.TWO 慕康生醫</item>
+        <item>5403.TWO 中菲</item>
+        <item>5410.TWO 國眾</item>
+        <item>5425.TWO 台半</item>
+        <item>5426.TWO 振發</item>
+        <item>5432.TWO 達威</item>
+        <item>5438.TWO 東友</item>
+        <item>5439.TWO 高技</item>
+        <item>5443.TWO 均豪</item>
+        <item>5450.TWO 寶聯通</item>
+        <item>5452.TWO 佶優</item>
+        <item>5455.TWO 昇益</item>
+        <item>5457.TWO 宣德</item>
+        <item>5460.TWO 同協</item>
+        <item>5464.TWO 霖宏</item>
+        <item>5465.TWO 富驊</item>
+        <item>5468.TWO 凱鈺</item>
+        <item>5474.TWO 聰泰</item>
+        <item>5475.TWO 德宏</item>
+        <item>5478.TWO 智冠</item>
+        <item>5480.TWO 統盟</item>
+        <item>5481.TWO 華韡</item>
+        <item>5483.TWO 中美晶</item>
+        <item>5487.TWO 通泰</item>
+        <item>5488.TWO 松普</item>
+        <item>5489.TWO 彩富</item>
+        <item>5490.TWO 同亨</item>
+        <item>5491.TWO 連展</item>
+        <item>5493.TWO 三聯</item>
+        <item>5498.TWO 凱崴</item>
+        <item>5508.TWO 永信建</item>
+        <item>5511.TWO 德昌</item>
+        <item>5512.TWO 力麒</item>
+        <item>5514.TWO 三豐</item>
+        <item>5516.TWO 雙喜</item>
+        <item>5520.TWO 力泰</item>
+        <item>5523.TWO 豐謙</item>
+        <item>5529.TWO 志嘉</item>
+        <item>5530.TWO 龍巖</item>
+        <item>5536.TWO 聖暉</item>
+        <item>5543.TWO 崇佑-KY</item>
+        <item>5601.TWO 台聯櫃</item>
+        <item>5603.TWO 陸海</item>
+        <item>5604.TWO 中連貨</item>
+        <item>5609.TWO 中菲行</item>
+        <item>5701.TWO 劍湖山</item>
+        <item>5703.TWO 亞都</item>
+        <item>5704.TWO 老爺知</item>
+        <item>5820.TWO 日盛金</item>
+        <item>5878.TWO 台名</item>
+        <item>5902.TWO 德記</item>
+        <item>5903.TWO 全家</item>
+        <item>5904.TWO 寶雅</item>
+        <item>5905.TWO 南仁湖</item>
+        <item>6015.TWO 宏遠證</item>
+        <item>6016.TWO 康和證</item>
+        <item>6020.TWO 大展證</item>
+        <item>6021.TWO 大慶證</item>
+        <item>6023.TWO 元大期</item>
+        <item>6026.TWO 福邦證</item>
+        <item>6101.TWO 寬魚國際</item>
+        <item>6103.TWO 合邦</item>
+        <item>6104.TWO 創惟</item>
+        <item>6107.TWO 華美</item>
+        <item>6109.TWO 亞元</item>
+        <item>6111.TWO 大宇資</item>
+        <item>6113.TWO 亞矽</item>
+        <item>6114.TWO 久威</item>
+        <item>6118.TWO 建達</item>
+        <item>6121.TWO 新普</item>
+        <item>6122.TWO 擎邦</item>
+        <item>6123.TWO 上奇</item>
+        <item>6124.TWO 業強</item>
+        <item>6125.TWO 廣運</item>
+        <item>6126.TWO 信音</item>
+        <item>6127.TWO 九豪</item>
+        <item>6129.TWO 普誠</item>
+        <item>6130.TWO 星寶國際</item>
+        <item>6134.TWO 萬旭</item>
+        <item>6138.TWO 茂達</item>
+        <item>6140.TWO 訊達</item>
+        <item>6143.TWO 振曜</item>
+        <item>6144.TWO 得利影</item>
+        <item>6146.TWO 耕興</item>
+        <item>6147.TWO 頎邦</item>
+        <item>6148.TWO 驊宏資</item>
+        <item>6150.TWO 撼訊</item>
+        <item>6151.TWO 晉倫</item>
+        <item>6154.TWO 順發</item>
+        <item>6156.TWO 松上</item>
+        <item>6158.TWO 禾昌</item>
+        <item>6160.TWO 欣技</item>
+        <item>6161.TWO 捷波</item>
+        <item>6163.TWO 華電網</item>
+        <item>6167.TWO 久正</item>
+        <item>6169.TWO 昱泉</item>
+        <item>6170.TWO 統振</item>
+        <item>6171.TWO 亞銳士</item>
+        <item>6173.TWO 信昌電</item>
+        <item>6174.TWO 安碁</item>
+        <item>6175.TWO 立敦</item>
+        <item>6179.TWO 亞通</item>
+        <item>6180.TWO 橘子</item>
+        <item>6182.TWO 合晶</item>
+        <item>6185.TWO 幃翔</item>
+        <item>6186.TWO 新潤</item>
+        <item>6187.TWO 萬潤</item>
+        <item>6188.TWO 廣明</item>
+        <item>6190.TWO 萬泰科</item>
+        <item>6194.TWO 育富</item>
+        <item>6195.TWO 詩肯</item>
+        <item>6198.TWO 凌泰</item>
+        <item>6199.TWO 天品</item>
+        <item>6203.TWO 海韻電</item>
+        <item>6204.TWO 艾華</item>
+        <item>6207.TWO 雷科</item>
+        <item>6208.TWO 日揚</item>
+        <item>6210.TWO 慶生</item>
+        <item>6212.TWO 理銘</item>
+        <item>6217.TWO 中探針</item>
+        <item>6218.TWO 豪勉</item>
+        <item>6219.TWO 富旺</item>
+        <item>6220.TWO 岳豐</item>
+        <item>6221.TWO 晉泰</item>
+        <item>6222.TWO 上揚</item>
+        <item>6223.TWO 旺矽</item>
+        <item>6227.TWO 茂綸</item>
+        <item>6228.TWO 全譜</item>
+        <item>6229.TWO 研通</item>
+        <item>6231.TWO 系微</item>
+        <item>6233.TWO 旺玖</item>
+        <item>6234.TWO 高僑</item>
+        <item>6236.TWO 康呈</item>
+        <item>6237.TWO 驊訊</item>
+        <item>6238.TWO 勝麗</item>
+        <item>6240.TWO 松崗</item>
+        <item>6241.TWO 易通展</item>
+        <item>6242.TWO 立康</item>
+        <item>6244.TWO 茂迪</item>
+        <item>6245.TWO 立端</item>
+        <item>6246.TWO 臺龍</item>
+        <item>6247.TWO 淇譽電</item>
+        <item>6248.TWO 沛波</item>
+        <item>6259.TWO 百徽</item>
+        <item>6261.TWO 久元</item>
+        <item>6263.TWO 普萊德</item>
+        <item>6264.TWO 富裔</item>
+        <item>6265.TWO 方土昶</item>
+        <item>6266.TWO 泰詠</item>
+        <item>6270.TWO 倍微</item>
+        <item>6274.TWO 台燿</item>
+        <item>6275.TWO 元山</item>
+        <item>6276.TWO 安鈦克</item>
+        <item>6279.TWO 胡連</item>
+        <item>6284.TWO 佳邦</item>
+        <item>6287.TWO 元隆</item>
+        <item>6290.TWO 良維</item>
+        <item>6291.TWO 沛亨</item>
+        <item>6292.TWO 迅德</item>
+        <item>6294.TWO 智基</item>
+        <item>6298.TWO 崴強</item>
+        <item>6404.TWO 通訊-KY</item>
+        <item>6411.TWO 晶焱</item>
+        <item>6417.TWO 韋僑</item>
+        <item>6419.TWO 京晨科</item>
+        <item>6426.TWO 統新</item>
+        <item>6432.TWO 今展科</item>
+        <item>6435.TWO 大中</item>
+        <item>6438.TWO 迅得</item>
+        <item>6441.TWO 廣錠</item>
+        <item>6446.TWO 藥華藥</item>
+        <item>6457.TWO 紘康</item>
+        <item>6462.TWO 神盾</item>
+        <item>6465.TWO 威潤</item>
+        <item>6469.TWO 大樹</item>
+        <item>6470.TWO 宇智</item>
+        <item>6472.TWO 保瑞</item>
+        <item>6482.TWO 弘煜科</item>
+        <item>6485.TWO 點序</item>
+        <item>6486.TWO 互動</item>
+        <item>6488.TWO 環球晶</item>
+        <item>6492.TWO 生華科</item>
+        <item>6494.TWO 九齊</item>
+        <item>6496.TWO 科懋</item>
+        <item>6497.TWO 亞獅康-KY</item>
+        <item>6499.TWO 益安</item>
+        <item>6506.TWO 雙邦</item>
+        <item>6508.TWO 惠光</item>
+        <item>6509.TWO 聚和</item>
+        <item>6510.TWO 精測</item>
+        <item>6512.TWO 啟發電</item>
+        <item>6514.TWO 芮特-KY</item>
+        <item>6523.TWO 達爾膚</item>
+        <item>6532.TWO 瑞耘</item>
+        <item>6535.TWO 順藥</item>
+        <item>6538.TWO 倉和</item>
+        <item>6542.TWO 隆中</item>
+        <item>6548.TWO 長華科</item>
+        <item>6554.TWO 中美冠科-KY</item>
+        <item>6556.TWO 勝品</item>
+        <item>6560.TWO 欣普羅</item>
+        <item>6568.TWO 宏觀</item>
+        <item>6569.TWO 醫揚</item>
+        <item>6574.TWO 霈方</item>
+        <item>6577.TWO 勁豐</item>
+        <item>6593.TWO 台灣銘板</item>
+        <item>6594.TWO 展匯科</item>
+        <item>6603.TWO 富強鑫</item>
+        <item>6609.TWO 瀧澤科</item>
+        <item>6803.TWO 崑鼎</item>
+        <item>7402.TWO 邑錡</item>
+        <item>8024.TWO 佑華</item>
+        <item>8027.TWO 鈦昇</item>
+        <item>8032.TWO 光菱</item>
+        <item>8034.TWO 榮群</item>
+        <item>8038.TWO 長園科</item>
+        <item>8040.TWO 九暘</item>
+        <item>8042.TWO 金山電</item>
+        <item>8043.TWO 蜜望實</item>
+        <item>8044.TWO 網家</item>
+        <item>8047.TWO 星雲</item>
+        <item>8048.TWO 德勝</item>
+        <item>8049.TWO 晶采</item>
+        <item>8050.TWO 廣積</item>
+        <item>8054.TWO 安國</item>
+        <item>8059.TWO 凱碩</item>
+        <item>8064.TWO 東捷</item>
+        <item>8066.TWO 來思達</item>
+        <item>8067.TWO 志旭</item>
+        <item>8068.TWO 全達</item>
+        <item>8069.TWO 元太</item>
+        <item>8071.TWO 能率網通</item>
+        <item>8074.TWO 鉅橡</item>
+        <item>8076.TWO 伍豐</item>
+        <item>8077.TWO 洛碁</item>
+        <item>8080.TWO 奧斯特</item>
+        <item>8083.TWO 瑞穎</item>
+        <item>8084.TWO 巨虹</item>
+        <item>8085.TWO 福華</item>
+        <item>8086.TWO 宏捷科</item>
+        <item>8087.TWO 華鎂鑫</item>
+        <item>8088.TWO 品安</item>
+        <item>8091.TWO 翔名</item>
+        <item>8092.TWO 建暐</item>
+        <item>8093.TWO 保銳</item>
+        <item>8096.TWO 擎亞</item>
+        <item>8097.TWO 常珵</item>
+        <item>8099.TWO 大世科</item>
+        <item>8107.TWO 大億金茂</item>
+        <item>8109.TWO 博大</item>
+        <item>8111.TWO 立碁</item>
+        <item>8121.TWO 越峰</item>
+        <item>8147.TWO 正淩</item>
+        <item>8155.TWO 博智</item>
+        <item>8171.TWO 天宇</item>
+        <item>8176.TWO 智捷</item>
+        <item>8182.TWO 加高</item>
+        <item>8183.TWO 精星</item>
+        <item>8234.TWO 新漢</item>
+        <item>8240.TWO 華宏</item>
+        <item>8255.TWO 朋程</item>
+        <item>8277.TWO 商丞</item>
+        <item>8279.TWO 生展</item>
+        <item>8287.TWO 英格爾</item>
+        <item>8289.TWO 泰藝</item>
+        <item>8291.TWO 尚茂</item>
+        <item>8299.TWO 群聯</item>
+        <item>8349.TWO 恒耀</item>
+        <item>8354.TWO 冠好</item>
+        <item>8358.TWO 金居</item>
+        <item>8383.TWO 千附</item>
+        <item>8390.TWO 金益鼎</item>
+        <item>8401.TWO 白紗科</item>
+        <item>8403.TWO 盛弘</item>
+        <item>8406.TWO 金可-KY</item>
+        <item>8409.TWO 商之器</item>
+        <item>8410.TWO 森田</item>
+        <item>8415.TWO 大國鋼</item>
+        <item>8416.TWO 實威</item>
+        <item>8418.TWO 捷必勝-KY</item>
+        <item>8420.TWO 明揚</item>
+        <item>8421.TWO 旭源</item>
+        <item>8423.TWO 保綠-KY</item>
+        <item>8424.TWO 惠普</item>
+        <item>8426.TWO 紅木-KY</item>
+        <item>8431.TWO 匯鑽科</item>
+        <item>8432.TWO 東生華</item>
+        <item>8433.TWO 弘帆</item>
+        <item>8435.TWO 鉅邁</item>
+        <item>8436.TWO 大江</item>
+        <item>8437.TWO 大地-KY</item>
+        <item>8444.TWO 綠河-KY</item>
+        <item>8446.TWO 華研</item>
+        <item>8450.TWO 霹靂</item>
+        <item>8455.TWO 大拓-KY</item>
+        <item>8462.TWO 柏文</item>
+        <item>8472.TWO 夠麻吉</item>
+        <item>8476.TWO 台境</item>
+        <item>8477.TWO 創業家</item>
+        <item>8489.TWO 三貝德</item>
+        <item>8905.TWO 裕國</item>
+        <item>8906.TWO 花王</item>
+        <item>8908.TWO 欣雄</item>
+        <item>8913.TWO 全銓</item>
+        <item>8916.TWO 光隆</item>
+        <item>8917.TWO 欣泰</item>
+        <item>8921.TWO 沈氏</item>
+        <item>8923.TWO 時報</item>
+        <item>8924.TWO 大田</item>
+        <item>8927.TWO 北基</item>
+        <item>8928.TWO 鉅明</item>
+        <item>8929.TWO 富堡</item>
+        <item>8930.TWO 青鋼</item>
+        <item>8931.TWO 大汽電</item>
+        <item>8932.TWO 宏大</item>
+        <item>8933.TWO 愛地雅</item>
+        <item>8934.TWO 衡平</item>
+        <item>8935.TWO 邦泰</item>
+        <item>8936.TWO 國統</item>
+        <item>8937.TWO 合騏</item>
+        <item>8938.TWO 明安</item>
+        <item>8941.TWO 關中</item>
+        <item>8942.TWO 森鉅</item>
+        <item>9949.TWO 琉園</item>
+        <item>9950.TWO 萬國通</item>
+        <item>9951.TWO 皇田</item>
+        <item>9960.TWO 邁達康</item>
+        <item>9962.TWO 有益</item>
+    </string-array>
+
+    <string name="disclaimer">回測貓 免責聲明\n\n
+「回測貓」（以下簡稱本程式）所提供之所有資訊及其相關任何功能，非供直接交易或投資之目的，亦非投資買賣建議，使用者須自負風險及盈虧，本程式亦不負任何責任。\n\n
+ 1. 本程式管理單位 及資訊提供者對於所有經由本服務傳送之資訊之正確性與適用性均不負擔任何責任，並不保證所有資訊之準確，對於任何不準確或錯漏而引致之任何損失均不負任何賠償責任。\n\n
+ 2. 本程式管理單位 不保證藉由網際網路所傳送或儲存的資料將完全完整無誤，也無法保證服務 100% 穩定、無誤及不中斷。若出現傳輸中斷或故障等現象，造成使用者無法使用服務、資料喪失，您須自行備份所需資料，本程式不擔保您放置於本程式中之文字、圖片、資料不會遺失、毀損或被誤刪，如有前述情形時，本程式不負任何損害賠償責任。\n\n
+ 3. 本程式得隨時修改所有服務條款及聲明書之權利，並將更新公佈於本程式之中，並自公布之日起生效，無須再個別通知各使用者。\n\n
+ 4. 本程式所提供之服務無論係有償或無償，得隨時修改本服務部份或全部之權利，對於使用者或任何第三人均不負責。\n\n
+ 5. 從本服務連結到第三方網站或網頁所獲得之資訊、內容或廣告，本程式管理單位 不保證其內容之正確性或可靠性亦不負責。\n\n
+.免責聲明亦同時保障 本程式管理單位 股東、董事及職員之利益，會員或任何人均不得對其提出與本服務相關之主張或訴訟。\n\n</string>
+
+    <string name="terms_of_service">回測貓 服務條款\n\n
+非常歡迎您使用「回測貓」（以下簡稱本程式），為了讓您能夠安心的使用本程式的各項服務與資訊，特此向您說明本程式的服務條款，以保障您的權益，當您使用本程式時，即表示您已閱讀、瞭解本使用條款之所有內容，同時不可撤回且無條件地同意受其約束。其他未竟事項，均依中華民國法律相關規定。\n\n
+一、未成年人之保護\n
+若您未滿二十歲，當您於本程式購買本程式之服務前，應先取得您的家長或監護人同意。\n\n
+二、本程式之內容僅供參考\n
+本程式所提供之相關投資資料，均僅供您作為投資決策之輔助參考，並不明示或暗示提供任何擔保或推介，更不保證所提供之資訊得立即創造獲利或減少損失；對於使用者直接依賴並使用相關資訊後所為之一切投資行為，及其所遭致之直接、間接損失或傷害及相關責任，本程式管理單位恕不負擔任何損害賠償及法律責任。例如本程式內所稱之「回測報告」中之各項資訊，均係根據YAHOO股市所公開之資料整理所得，並不保證所得之報酬。\n\n
+本程式管理單位明確聲明對所有資料之正確性、完整性或妥適性不負任何責任，此包括但不限於：資料中的任何錯誤、缺漏或其他瑕疵、資料 之延遲或中斷、或因信任資料而採取的任何行動。\n\n
+三、活動、服務之更改權益\n
+針對本程式上所提供之任何活動或服務，本程式管理單位亦保留新增、修改或刪除之權利而對所為之任何調整，且不另行個別通知。\n\n
+四、智慧財產權之保護\n
+本程式所使用之軟體或程式與程式上之所有內容，均由本程式或其他權利人依法享有智慧財產權。未經本程式之事前書面同意，請勿擅自使用、修改、重製、公開播送或發表、散布、改作、發行、進行還原工程、解編或反向組譯。\n\n
+五、使用者之通知義務\n
+為有效維護他人權益，如您發現本程式或其他使用者之資訊有不法或不當之情形時，請立即以電子郵件向本程式管理單位通知。\n\n
+六、準據法與管轄法院\n
+本使用條款之解釋與適用，以及與本使用條款相關之爭議，均應適用中華民國法律。\n</string>
+
+    <string name="privacy_policy">回測貓 隱私權政策\n\n
+非常歡迎您使用「回測貓」（以下簡稱本程式），為了讓您能夠安心的使用本程式的各項服務與資訊，特此向您說明本程式的隱私權保護政策，以保障您的權益，當您使用本程式時，即表示您已閱讀、瞭解本使用條款之所有內容，同時不可撤回且無條件地同意受其約束。其他未竟事項，均依中華民國法律相關規定。\n\n
+一、隱私權保護政策的適用範圍\n
+隱私權保護政策內容，包括本程式如何處理在您使用程式服務時收集到的個人識別資料。隱私權保護政策不適用於本程式以外的相關連結網站，也不適用於非本程式所委託或參與管理的人員。\n\n
+二、個人資料的蒐集、處理及利用方式\n
+當您洽辦本程式業務或參與本程式活動時，我們將視業務或活動性質請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本程式不會將個人資料用於其他用途。\n
+本程式在您使用服務信箱功能時，會保留您所提供的姓名、電子郵件地址、聯絡方式及使用時間等。\n
+為提供精確的服務，我們會將收集的回測報告內容進行統計與分析，分析結果之統計數據或說明文字呈現，除供內部研究外，我們會視需要公佈統計數據及說明文字，但不涉及特定個人之資料。\n\n
+三、資料之保護\n
+本程式主機均設有防火牆、防毒系統等相關的各項資訊安全設備及必要的安全防護措施，加以保護您的個人資料採用嚴格的保護措施，只由經過授權的人員才能接觸您的個人資料，相關處理人員皆簽有保密合約，如有違反保密義務者，將會受到相關的法律處分。\n
+如因業務需要有必要委託其他單位提供服務時，本程式亦會嚴格要求其遵守保密義務，並且採取必要檢查程序以確定其將確實遵守。\n\n
+四、程式對外的相關連結\n
+本程式提供其他網站的網路連結，您也可經由本程式所提供的連結，點選進入其他網站。但該連結網站不適用本程式的隱私權保護政策，您必須參考該連結網站中的隱私權保護政策。\n\n
+五、與第三人共用個人資料之政策\n
+本程式絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。\n
+前項但書之情形包括不限於：\n\n
+經由您書面同意。\n
+法律明文規定。\n
+為免除您生命、身體、自由或財產上之危險。\n
+與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。\n
+當您在程式的行為，違反服務條款或可能損害或妨礙程式與其他使用者權益或導致任何人遭受損害時，經程式管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。\n
+有利於您的權益。\n
+本程式委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。\n\n
+六、隱私權保護政策之修正\n
+本程式隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於程式內。\n</string>
+
+    <string name="drawer_open">打開</string>
+    <string name="drawer_close">關閉</string>
+
+    <string name="approach_str">進場</string>
+    <string name="appearances_str">出場</string>
+
+    <string name="report_str">回測報告</string>
+    <string name="report_detail_str">技術指標</string>
+
+    <string name="continue_str">連續</string>
+    <string name="over_str">突破</string>
+    <string name="unit_str">張</string>
+    <string name="day_str">日</string>
+    <string name="today_str">當日</string>
+    <string name="inverse_str">反轉</string>
+
+    <string name="gap_str">跳空</string>
+    <string name="k_bar_today_str">當日K棒呈</string>
+
+    <string name="volume_str">成交量</string>
+    <string name="volume_average_str">成交均量</string>
+
+    <string name="KD_str">KD線</string>
+    <string name="K_str">K值</string>
+    <string name="D_str">D值</string>
+
+    <string name="moving_average_str">均線</string>
+
+    <string name="macd_str">MACD線</string>
+    <string name="macd_osc_str">MACD柱狀圖</string>
+
+    <string name="rsi_str">RSI線</string>
+    <string name="rsi_val_str">RSI</string>
+
+    <string name="bias_val_str">乖離率</string>
+
+    <string name="golden_cross_str">黃金交叉</string>
+    <string name="death_cross_str">死亡交叉</string>
+
+    <string name="profit_str">淨利</string>
+    <string name="win_ratio_str">勝率</string>
+
+    <string name="gross_profit_str">毛利</string>
+    <string name="profit_factor_str">獲利因子</string>
+    <string name="gross_loss_str">毛損</string>
+
+    <string name="average_profit_str">平均獲利</string>
+    <string name="profit_ratio_str">賺賠比</string>
+    <string name="average_loss_str">平均虧損</string>
+
+    <string name="profit_count_str">獲利次數</string>
+    <string name="trade_count_str">總交易次數</string>
+    <string name="loss_count_str">虧損次數</string>
+
+    <string name="max_continue_profit_str">最大連續獲利次數</string>
+    <string name="max_continue_loss_str">最大連續虧損次數</string>
+
+    <string name="max_continue_loss_trade_str">最大策略虧損</string>
+    <string name="percent_trading_str">報酬率</string>
+
+    <string name="note_str">備註</string>
+
+    <string name="test_interval_str">測試區間：</string>
+
+    <string name="report_tip">回測貓之回測報告是以使用者選定的進出場策略，在標的的歷史股價上模擬單張自動進出場的測試結果。根據回測報告的結果，使用者可以及時量化策略在選定標的上的效用，亦可對於未來在資金控管上提供具有價值之參考資訊。\n
+我們會根據以下報告的內容作簡短的說明：\n\n
+
+一、淨利：\n
+於回測模擬後之最終獲利，也是最直觀的指標。\n\n
+
+二、勝率：\n
+有獲利的進出場佔總體進出場的比例，勝率越高代表有越高的機會在進出場中獲利。\n\n
+
+三、毛利：\n
+不含虧損之總獲利金額，與毛損合併參考。\n\n
+
+四、毛損：\n
+不含獲利之總虧損金額，與毛利合併參考。\n\n
+
+五、獲利因子：\n
+總獲利與總虧損間的比值，也就是每損失一元就可獲得多少元的獲利反饋，可衡量策略的品質，一般獲利因子高於1.5的策略就值得持續關注。\n\n
+
+六、獲利次數：\n
+有獲利的進出場次數，與虧損次數合併參考。\n\n
+
+七、虧損次數：\n
+虧損的進出場次數，與獲利次數合併參考。\n\n
+
+八、總交易次數：\n
+包含了獲利、未獲利(同價位進出)以及虧損的進出場次數，可與獲利及虧損次數合併參考。\n\n
+
+九、平均獲利：\n
+在一次獲利進出時平均可賺得多少錢，與平均虧損合併參考。\n\n
+
+十、平均虧損：\n
+在一次虧損進出時平均會損失多少錢，與平均獲利合併參考。\n\n
+
+十一、賺賠比：\n
+平均獲利與平均虧損間的比值，相當於一次進出場之間的賠率，可作為資金控管之參考指標。\n\n
+
+十二、最大連續獲利次數：\n
+連續獲利的進出場次數，搭配最大連續虧損次數可作為未來投資進出場衡量的指標。\n\n
+
+十三、最大連續虧損次數：\n
+連續虧損的進出場次數，搭配最大連續獲利次數可作為未來投資進出場衡量的指標。\n\n
+
+十四、最大策略虧損：\n
+在連續虧損下之最大的虧損金額，也就是風險成本，若手持資金未超過最大策略虧損之金額時不適宜使用此策略或標的。\n\n
+
+十五、報酬率：\n
+淨利與風險成本之間的比值，也就是在預期多少成本下可獲得幾倍之報酬。
+    </string>
+
+</resources>

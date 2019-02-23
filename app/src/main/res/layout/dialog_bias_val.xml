@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:text="10"
+        android:id="@+id/BIASDays"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:text="@string/day_str"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:text="@string/bias_val_str"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:entries="@array/measurements"
+        android:id="@+id/BIASMeasurement"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:inputType="numberSigned"
+        android:id="@+id/BIASVal"
+        android:text="2"/>
+
+</LinearLayout>

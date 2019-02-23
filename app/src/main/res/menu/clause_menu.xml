@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:title="新增"
+        android:id="@+id/addicon"
+        android:icon="@drawable/ic_add_black_24dp">
+    </item>
+
+    <item
+        app:showAsAction="ifRoom"
+        android:title="下一步"
+        android:id="@+id/clausenexticon"
+        android:icon="@drawable/ic_keyboard_arrow_right_black_24dp">
+    </item>
+</menu>
